@@ -9,3 +9,8 @@ set tabstop=4
 set shiftwidth=4
 set autoindent
 set smartindent
+
+" Use solarized theme
+syntax enable
+set background=dark
+colorscheme solarized
