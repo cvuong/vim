@@ -10,7 +10,10 @@ set shiftwidth=4
 set autoindent
 set smartindent
 
-" Use solarized theme
+" Show max length warning column
+set colorcolumn=70
+
+" Use dark solarized theme
 syntax enable
 set background=dark
 colorscheme solarized
