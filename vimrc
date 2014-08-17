@@ -22,4 +22,4 @@ set colorcolumn=70
 " Use dark solarized theme
 syntax enable
 set background=dark
-colorscheme solarized
+colorscheme molokai
