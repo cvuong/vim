@@ -23,3 +23,6 @@ set colorcolumn=70
 syntax enable
 set background=dark
 colorscheme molokai
+
+" Faster CtrlP indexing
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip
