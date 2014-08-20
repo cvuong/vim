@@ -11,6 +11,7 @@ set shiftwidth=4
 set autoindent
 set smartindent
 set backspace=indent,eol,start
+set noswapfile
 
 " Set programming language specific tab options
 autocmd Filetype javascript setlocal ts=2 sts=2 sw=2
