@@ -17,13 +17,14 @@ set noswapfile
 autocmd Filetype javascript setlocal ts=2 sts=2 sw=2
 autocmd Filetype coffee setlocal ts=2 sts=2 sw=2
 
-" Show max length warning column
-set colorcolumn=70
-
 " Use dark solarized theme
 syntax enable
 set background=dark
 colorscheme molokai
+
+" Show warning columns when exceeding max line length
+let &colorcolumn=join(range(81, 999), ",")
+highlight ColorColumn ctermbg=8
 
 " Faster CtrlP indexing
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip
