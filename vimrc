@@ -13,6 +13,10 @@ set smartindent
 set backspace=indent,eol,start
 set noswapfile
 
+" Search options
+set hlsearch
+set incsearch
+
 " Set programming language specific tab options
 autocmd Filetype javascript setlocal ts=2 sts=2 sw=2
 autocmd Filetype coffee setlocal ts=2 sts=2 sw=2
