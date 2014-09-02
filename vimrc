@@ -33,5 +33,3 @@ highlight ColorColumn ctermbg=8
 " Faster CtrlP indexing
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip
 
-" Turn off go autoformatting (will have to run gofmt manually)
-let g:go_fmt_autosave = 0
