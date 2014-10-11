@@ -31,3 +31,6 @@
 [submodule "bundle/molokai.vim"]
 	path = bundle/molokai.vim
 	url = https://github.com/mrtazz/molokai.vim.git
+[submodule "bundle/vim-less"]
+	path = bundle/vim-less
+	url = https://github.com/groenewege/vim-less.git
