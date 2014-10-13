@@ -13,6 +13,7 @@ set smartindent
 set backspace=indent,eol,start
 set noswapfile
 set ruler
+set cursorline
 
 " Search options
 set hlsearch
