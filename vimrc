@@ -32,5 +32,6 @@ colorscheme molokai
 let &colorcolumn=join(range(81, 999), ",")
 highlight ColorColumn ctermbg=8
 
-" Faster CtrlP indexing
+" CtrlP custom options
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip
+let g:ctrlp_custom_ignore = 'node_modules\|bower_components\|DS_Store\|git'
