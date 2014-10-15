@@ -38,4 +38,4 @@ highlight ColorColumn ctermbg=8
 
 " CtrlP custom options
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip
-let g:ctrlp_custom_ignore = 'node_modules\|bower_components\|DS_Store\|git'
+let g:ctrlp_custom_ignore = 'dist\|node_modules\|bower_components\|DS_Store\|git'
