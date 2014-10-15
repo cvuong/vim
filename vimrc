@@ -15,6 +15,10 @@ set noswapfile
 set ruler
 set cursorline
 
+" Always show the absolute path of the opened file
+set statusline+=%F
+set laststatus=2
+
 " Search options
 set hlsearch
 set incsearch
