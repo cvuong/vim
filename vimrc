@@ -18,6 +18,8 @@ set clipboard=unnamedplus
 
 " Key Bindings
 inoremap jk <Esc>
+map <C-j> :tabp<CR>
+map <C-k> :tabn<CR>
 
 " Always show the absolute path of the opened file
 set statusline+=%F
