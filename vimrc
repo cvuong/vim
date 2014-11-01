@@ -15,6 +15,9 @@ set noswapfile
 set ruler
 set cursorline
 
+" Key Bindings
+inoremap jk <Esc>
+
 " Always show the absolute path of the opened file
 set statusline+=%F
 set laststatus=2
@@ -26,6 +29,7 @@ set incsearch
 " Set programming language specific tab options
 autocmd Filetype javascript setlocal ts=2 sts=2 sw=2
 autocmd Filetype coffee setlocal ts=2 sts=2 sw=2
+autocmd Filetype less setlocal ts=2 sts=2 sw=2
 
 " Use molokai theme
 syntax enable
