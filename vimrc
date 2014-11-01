@@ -14,6 +14,7 @@ set backspace=indent,eol,start
 set noswapfile
 set ruler
 set cursorline
+set clipboard=unnamedplus
 
 " Key Bindings
 inoremap jk <Esc>
