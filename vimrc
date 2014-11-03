@@ -16,6 +16,10 @@ set ruler
 set cursorline
 set clipboard=unnamedplus,unnamed,autoselect
 
+" Toggle Cursor in Different Modes
+let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
+let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
+
 " Key Bindings
 inoremap jk <Esc>
 map <C-j> :tabp<CR>
