@@ -24,6 +24,8 @@ let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 inoremap jk <Esc>
 map <C-j> :tabp<CR>
 map <C-k> :tabn<CR>
+noremap <C-C> "+y
+noremap <C-V> "+p
 
 " Always show the absolute path of the opened file
 set statusline+=%F
