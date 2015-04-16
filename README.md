@@ -15,11 +15,10 @@ ln -s ~/.vim/vimrc ~/.vimrc
 
 Install the plugins:
 ```
-git submodule update --init --recursive
+cd ~/ && git submodule update --init --recursive
 ```
 
 Setup YouCompleteMe:
 ```
-cd ~/.vim/bundle/YouCompleteMe
-./install.sh
+cd ~/.vim/bundle/YouCompleteMe && ./install.sh
 ```
